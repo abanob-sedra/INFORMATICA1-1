@@ -1,6 +1,6 @@
 
 /*
-file: areaTriangolo.c
+file: media_numeri.c
 autore: Tommaso Sollo
 classe: 3°H
 data: 28/09/2022
