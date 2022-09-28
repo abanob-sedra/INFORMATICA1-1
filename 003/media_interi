@@ -19,13 +19,13 @@ int main()
   float media; //output
   
   printf("Inserisci il primo intero: ");   //leggo valore num1
-  scanf("%f", &num1);
+  scanf("%d", &num1);
   
   printf("Inserisci il secondo intero: ");   //leggo valore num2
-  scanf("%f", &num2);
+  scanf("%d", &num2);
   
   printf("Inserisci il terzo intero: ");   //leggo valore num3
-  scanf("%f", &num3);
+  scanf("%d", &num3);
   
   
   media = (num1 + num2 + num3)/3.0;  //calcolo media
