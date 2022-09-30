@@ -21,7 +21,7 @@ int main() {
   scanf("%f", &raggio);
   
   area = raggio*raggio*PI_GRECO;	//calcolo area
-  circonferenza = 2*raggio*PI_GRECO;
+  circonferenza = 2*raggio*PI_GRECO;  //calcolo circonferenza
   
   printf("L'area del cerchio = %.2f\ncirconferenza del cerchio = %.2f", area, circonferenza);	//scrittura risultato
   
