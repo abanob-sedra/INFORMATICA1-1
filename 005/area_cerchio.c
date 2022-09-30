@@ -5,8 +5,8 @@ classe: 3°H
 data: 30/09/2022
 calcolo area cerchio 
 Input: raggio
-Elaborazione: area cerchio
-Output: area cerchio
+Elaborazione: area e circonferenza cerchio
+Output: area e circonferenza cerchio
 */
 
 
@@ -15,13 +15,14 @@ Output: area cerchio
 
 int main() {
   float raggio;	//input
-  float area;	//output
+  float area, circonferenza;	//output
   
   printf("Inserisci il valore del raggio: ");	//lettura raggio
   scanf("%f", &raggio);
   
   area = raggio*raggio*PI_GRECO;	//calcolo area
+  circonferenza = 2*raggio*PI_GRECO;
   
-  printf("L'area del cerchio = %.2f", area);	//scrittura risultato
+  printf("L'area del cerchio = %.2f\ncirconferenza del cerchio = %.2f", area, circonferenza);	//scrittura risultato
   
 }
