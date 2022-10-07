@@ -3,7 +3,6 @@
 *
 * @brief Dato un numero inserito dall’utente, compreso tra 100 e 999, stampalo in modo che ogni cifra sia separata dalle altre da uno spazio.
 * Il progetto accetta ogni tipo di numero tra 100 e 999
-* Collaudato con numeri tra 100 e 999, inferiori a 100, superiori a 999
 * 
 * @author Tommaso Sollo
 * @date 07/10/2022
