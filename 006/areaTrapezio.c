@@ -10,12 +10,15 @@
 */
 
 #include <stdio.h>
+#include <math.h>
 
 int main() {
-  int baseM, basem, altezza;
-  float area;
+  int baseM, basem, altezza;  //input
+  float latoObliquo, diff;  //lavoro
+  float area, perimetro;  //output
   
-  printf("Inserisci il valore della base maggiore: ");
+  //lettura dati
+  printf("Inserisci il valore della base maggiore: "); 
   scanf("%d", &baseM);
   
   printf("Inserisci il valore della base minore: ");
@@ -25,8 +28,15 @@ int main() {
   printf("Inserisci il valore dell'altezza: ");
   scanf("%d", &altezza);
   
-  area=(baseM+basem)*altezza/2.0;
+  area=(baseM+basem)*altezza/2.0; //calcolo area
   
-  printf("Area = %.2f", area);
+  diff = baseM - basem;       // calcolo perimetro
+  latoObliquo = sqrt(pow(diff, 2) + pow(altezza, 2));
+  perimetro = baseM + basem + altezza + latoObliquo;
+  
+  
+  //scrittura risultato
+  printf("Area = %.2f", area);  
+  printf("\nPerimetro = %.2f", perimetro);
  }
 
