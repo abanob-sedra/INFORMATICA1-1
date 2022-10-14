@@ -13,16 +13,16 @@ Output: ore, minuti e secondi
 #include <stdio.h>
 
 int main() {
-  int secondi;  //input
-  int ore, minuti;  //output
+  int secondiIniziali;  //input
+  int ore, minuti, secondi;  //output
   
   printf("Inserisci il numero di secondi: ");   //richiesta input
-  scanf("%d", &secondi);  //lettura input
+  scanf("%d", &secondiIniziali);  //lettura input
   
-  minuti = (secondi - secondi % 60) / 60; //calcolo minuti totali
+  minuti = (secondiIniziali - secondiIniziali % 60) / 60; //calcolo minuti totali
   ore = (minuti - minuti % 60) / 60;  //calcolo ore
-  secondi = secondi % 60;   //calcolo minuti effettivi
+  secondi = secondiIniziali % 60;   //calcolo minuti effettivi
   minuti = minuti % 60;     //calcolo secondi effettivi
   
-  printf("Ore: %d, Minuti: %d, Secondi: %d", ore, minuti, secondi); //stampa risultato
+  printf("%d secondi = %d h, %d m, %d s", secondiIniziali, ore, minuti, secondi); //stampa risultato
 }
