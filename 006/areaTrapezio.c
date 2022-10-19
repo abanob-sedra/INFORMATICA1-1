@@ -12,7 +12,8 @@
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+int main() 
+{
   int baseM, basem, altezza;  //input
   float latoObliquo, diff;  //lavoro
   float area, perimetro;  //output
