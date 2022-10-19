@@ -12,7 +12,8 @@ Output: resto
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
   int n1, n2; //input
   int resto;  //output
   
