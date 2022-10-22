@@ -17,7 +17,7 @@ int main() {
   printf("inserisci tre interi: ");		//richiesta dati
   scanf("%d%d%d", &a, &b, &c);
     
-  if (a>b) {					//***************************************************
+  if (a>b) {					
   	if (a>c) {									
   		max = a;								
   		if (c>b) {								
@@ -29,7 +29,7 @@ int main() {
 	  	max=c;									
 	  	min=b;										
 	  }											
-  } else {						//									ALGORITMO											//
+  } else {						//ALGORITMO
   	if (b>c) {									
   		max = b;								
   		if (a>c) {								
@@ -41,7 +41,7 @@ int main() {
 	  	max=c;									
 	  	min=a;									
 	  }											
-  }							//********************************************************		
+  }													
   
   	
 	printf("%d, %d", min, max);
