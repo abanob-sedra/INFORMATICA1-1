@@ -8,14 +8,15 @@
 */
 #include <stdio.h>
 
-int main() {
-int a,b;  //input
+int main() 
+{
+	int a,b;  //input
 
-printf("inserisci due interi: "); //richiesta input
-scanf("%d%d", &a, &b);
+	printf("inserisci due interi: "); //richiesta input
+	scanf("%d%d", &a, &b);
 
-if (a<b)  
-  printf("%d e' minore", a);  
-else 
-  printf("%d e' minore", b);
+	if (a<b)   
+		printf("%d e' minore", a);  
+	else 
+		printf("%d e' minore", b);
 }
