@@ -7,6 +7,8 @@
 * @date 07/10/2022
 */
 
+#include <stdio.h>
+
 int main() {
   int a,b;
   printf("Inserisci due interi: ");
