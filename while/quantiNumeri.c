@@ -16,7 +16,7 @@ int main()
 	
 	do 
 	{
-		printf("inserisci un numero");
+		printf("inserisci un numero: ");
 		scanf("%d", &n);
 		
 		c++;
