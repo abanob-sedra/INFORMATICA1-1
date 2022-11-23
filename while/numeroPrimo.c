@@ -16,9 +16,10 @@ int main() {
 	printf("inserisci un numero: ");
 	scanf("%d", &n);
 	
-	for(int i = 2; i < n/2; i++) {
-		if (n%i==0 && i!=n)
+	for(int i = 2; i < n/2+1; i++) {
+		if (n%i==0)
 			control = false;
+			i = n/2+2;
 	}
 	
 	if (control)
