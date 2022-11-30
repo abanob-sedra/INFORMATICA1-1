@@ -1,5 +1,5 @@
 /** ****************************************************************************************
-* \mainpage tabulazioneNumeri.c
+* \mainpage a_divisoreNumero.c
 *
 * @brief Scrivere un programma che, richiesto un numero intero, visualizzi tutti i suoi divisori.
 * 
@@ -20,6 +20,5 @@ int main()
 	{
 		if(n%i==0)
 			printf("%d e' un divisore\n", i);
-	}
-	
+	}	
 }
