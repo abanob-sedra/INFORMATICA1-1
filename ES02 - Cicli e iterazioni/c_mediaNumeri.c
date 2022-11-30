@@ -14,16 +14,22 @@
 
 int main() 
 {
+    printf("\n--Esercizio C Sollo Tommaso--\n\n");
+
 	int n, c=0, somma=0;
-    float media;
+    float media=0;
 
     do 
     {
         printf("Insersici un numero: ");
         scanf("%d", &n);
-        somma += n;
+        media += n;
         if(n!=0) 
             c++;
-    } while (n=!0)
+    } while (n!=0);
+
+    media /= c;
+
+    printf("\nLa media dei numeri e' %.2f\n", media);
 	
 }
