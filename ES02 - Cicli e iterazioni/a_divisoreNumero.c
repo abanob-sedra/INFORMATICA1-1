@@ -7,18 +7,18 @@
 * @date 30/11/2022
 */
 
-#include <stdio.h>
+#include <stdio.h>		//inclusione librerie
 
 int main() 
 {
-	int n, i;
+	int n, i;			//dichiaro le variabili
 	
-	printf("Inserisci un numero: ");
+	printf("Inserisci un numero: ");	//richiesta input del numero
 	scanf("%d", &n);
 	
-	for(i = 2; i <= n/2; i++)
+	for(i = 2; i < n; i++)		//itero tutti gli interi da 2 al numero inserito
 	{
-		if(n%i==0)
-			printf("%d e' un divisore\n", i);
+		if(n%i==0)								//controllo se l'indice e' un divisore
+			printf("%d e' un divisore\n", i);		
 	}	
 }
