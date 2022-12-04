@@ -27,7 +27,7 @@ int main()
     do{
         scanf("%d", &bit);          //leggo un bit alla volta
 
-        n = n + pow(2, i) * bit;    //converto il singolo bit in decimale
+        n += pow(2, i) * bit;    //converto il singolo bit in decimale
 
         i--;                        //decremento la potenza del 2 di 1
     } while (i>-1);                 //continuo il ciclo fino a quando la potenza non raggiunge lo 0
