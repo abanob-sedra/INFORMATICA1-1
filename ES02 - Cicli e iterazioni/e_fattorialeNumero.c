@@ -15,20 +15,20 @@ int main()
 {
     printf("\n--Esercizio E Sollo Tommaso--\n\n");
 
-    //diachiaro le variabili - c=variabile di controllo inizializzata a vero
+    //diachiaro le variabili
     int n, i;        
 
-    printf("Inserisci un numero: ");
+    printf("Inserisci un numero: ");    //richiesta numero
     scanf("%d", &n);
 
-    if(n>0) {
+    if(n>0) {                           //controllo se il numero è positivo
         for(i=n-1; i>0; i--) {
-            n *= i;
+            n *= i;                     //moltiplico il numero per tutti i numeri minori di esso
         }
 
-        printf("\nIl fattoriale del numero inserito e' %d\n\n", n);
+        printf("\nIl fattoriale del numero inserito e' %d\n\n", n);     //stampa risultato
     }
     else {
-        printf("\nNon e' possibile calcolare il fattoriale di un numero negativo\n\n");
+        printf("\nNon e' possibile calcolare il fattoriale di un numero negativo\n\n");     //eccezione numero negativo
     }
 }
