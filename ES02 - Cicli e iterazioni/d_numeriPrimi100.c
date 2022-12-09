@@ -1,5 +1,5 @@
 /** ****************************************************************************************
-* \mainpage b_coppie_somma_15.c
+* \mainpage d_numeriPrimi100.c
 *
 * @brief Scrivere un programma che stampi tutti i numeri primi compresi tra 1 e 100. 
 *        Un numero è primo quando ha come divisore uno e sé stesso. Quindi è primo ciascun 
