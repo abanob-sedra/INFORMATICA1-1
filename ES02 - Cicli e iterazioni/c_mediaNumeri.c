@@ -1,5 +1,5 @@
 /** ****************************************************************************************
-* \mainpage b_coppie_somma_15.c
+* \mainpage c_mediaNumeri.c
 *
 * @brief Si scriva un programma per calcolare la media aritmetica di una serie di numeri 
 *        inseriti da tastiera. L’introduzione del valore 0 indica il termine del caricamento 
