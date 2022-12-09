@@ -1,5 +1,5 @@
 /** ****************************************************************************************
-* \mainpage b_coppie_somma_15.c
+* \mainpage c_fattorialeNumero.c
 *
 * @brief Si scriva un programma che calcoli il fattoriale di un numero intero N dato dalla 
 *        tastiera. Si ricordi che il fattoriale di un numero n (simbolo n!) viene calcolato 
