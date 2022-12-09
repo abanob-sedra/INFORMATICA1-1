@@ -1,5 +1,5 @@
 /** ****************************************************************************************
-* \mainpage b_coppie_somma_15.c
+* \mainpage f_BinarioDecimale.c
 *
 * @brief Scrivere un programma che converte un numero binario a 8 bit in un numero decimale. 
 *        L’utente inserisce le cifre del numero binario un bit alla volta, partendo dal bit 
