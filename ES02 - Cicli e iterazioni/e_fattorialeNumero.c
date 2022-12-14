@@ -30,7 +30,7 @@ int main()
     }
     else if (n==0)
     {
-        printf("Il fattoriale del numero inserito e' 1\n\n");
+        printf("\nIl fattoriale del numero inserito e' 1\n\n");
     }
     else {
         printf("\nNon e' possibile calcolare il fattoriale di un numero negativo\n\n");     //eccezione numero negativo
