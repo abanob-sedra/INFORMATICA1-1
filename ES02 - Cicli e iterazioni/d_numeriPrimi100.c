@@ -24,7 +24,8 @@ int main()
         	
             //se i1 è divisibile per un numero diverso da se stesso o 1 metto la variabile di controllo a falso
             if(i1 % i2 == 0) 
-                c=0;          
+                c=0;
+                i2=i1
             
         }
 
