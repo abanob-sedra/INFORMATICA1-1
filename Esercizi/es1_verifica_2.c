@@ -14,5 +14,4 @@ int main()
     }
 
     printf("\nSomma = %d\n", somma);
-
 }
